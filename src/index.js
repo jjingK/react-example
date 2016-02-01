@@ -3,5 +3,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import Todo from './components/Todo';
+import Tabs from './components/Tabs';
 
-ReactDOM.render(<Todo />, document.getElementById('app'));
+ReactDOM.render(
+  <div>
+    <Tabs />
+  </div>
+, document.getElementById('app'));
