@@ -50,7 +50,7 @@ class Tabs extends React.Component {
     const tabs = this.state.tabs;
     // @FIXME 마지막 요소가 삭제 될때...
     if (tabs.length === 1) {
-      return alert('마지막 탭입니다.');
+      return;
     }
     let idx = 0;
 
@@ -110,7 +110,7 @@ class Tabs extends React.Component {
             />
           ))
         }
-          <button className="btn btn-default" onClick={this.handleClick}>Add</button>
+          <button className="btn btn-default" onClick={this.handleClick}></button>
         </ul>
         <TabContent
           tabs={this.state.tabs}
