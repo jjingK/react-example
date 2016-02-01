@@ -62,10 +62,6 @@ class Todo extends React.Component {
     );
   }
 }
-Todo.propTypes = {
-  todo: React.PropTypes.String
-};
-
 Todo.defaultProps = {
   data: [
     {todo: 'first todo'}
