@@ -2,7 +2,7 @@
 
 import React from 'react';
 import ReactDOM from 'react-dom';
-// import Todo from './components/Todo';
+import Todo from './components/Todo';
 // import TabLayout from './components/ntabs';
 import Dialog from './components/Dialog';
 import Overlay from './components/Dialog/Overlay';
@@ -22,6 +22,7 @@ class Root extends React.Component {
   render() {
     return (
       <div>
+        <Todo />
         <button onClick={this.handleDialogToggle}>Open Dialog</button>
         {
           this.state.show && (

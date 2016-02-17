@@ -1,0 +1,6 @@
+{
+  "data": [
+    {"todo": "first todo", "completed": false},
+    {"todo": "second todo", "completed": false}
+  ]
+}

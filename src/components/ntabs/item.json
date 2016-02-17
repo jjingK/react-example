@@ -1,0 +1,8 @@
+{
+  "tabs": [
+    {"id": 1, "title": "tab1", "content": "Tab 1"},
+    {"id": 2, "title": "tab2", "content": "Tab 2"},
+    {"id": 3, "title": "tab3", "content": "Tab 3"},
+    {"id": 4, "title": "tab4", "content": "Tab 4"}
+  ]
+}
