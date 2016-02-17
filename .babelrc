@@ -1,0 +1,20 @@
+{
+  "presets": [
+    // "stage-0",
+    // "es2015",
+    // "react"
+  ],
+  "plugins": [
+    // ES2015
+    "transform-es2015-destructuring",
+    "transform-es2015-modules-commonjs",
+    // "transform-es2015-object-super", // Not Working
+    "transform-es2015-parameters",
+    "transform-es2015-shorthand-properties",
+    // "transform-es2015-sticky-regex", // Not Working
+    // Stage-2
+    "transform-object-rest-spread",
+    // React
+    "transform-react-jsx"
+  ]
+}
